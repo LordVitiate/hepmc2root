@@ -9,7 +9,7 @@ Prerequisites of the converter
 ## Example
 Go to the *example* directory and do
 ```bash
-	source setup.sh
+	source ../setup.sh
 	pyroot ../bin/hepmc2root.py susy200.hepmc
 ```
 which will create the file susy200.root that can be analyzed with a standard TNM *analyzer*. 
