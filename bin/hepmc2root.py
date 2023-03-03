@@ -46,7 +46,7 @@ def nameonly(s):
     return posixpath.splitext(posixpath.split(s)[1])[0]
 
 TREENAME= "Events"
-MAXPART = 5000
+MAXPART = 50000
 debug = 0
 
 class hepmc2root:
